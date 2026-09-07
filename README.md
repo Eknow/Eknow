@@ -1,7 +1,5 @@
 <div align="center">
-  <a href="https://github.com/Eknow">
-    <img src="./assets/banner.svg" alt="Ehiran Rodríguez — Frontend Engineer" width="100%" />
-  </a>
+  <img src="./assets/banner.png" alt="Ehiran Rodriguez — Frontend Engineer" width="100%" />
 </div>
 
 <br/>
@@ -13,41 +11,41 @@
 [![Location](https://img.shields.io/badge/Durango%2C%20MX-134E4A?style=for-the-badge&logo=googlemaps&logoColor=white)](https://github.com/Eknow)
 [![English](https://img.shields.io/badge/English-B2-F59E0B?style=for-the-badge)](#)
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=700&color=5EEAD4&center=true&vCenter=true&width=680&lines=Arquitectura+por+features+%C2%B7+workflows;Migraciones+de+dependencias+en+producci%C3%B3n;Liderazgo+de+m%C3%B3dulos+cr%C3%ADticos;React+%C2%B7+Next.js+%C2%B7+UI+systems" alt="typing" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=700&color=5EEAD4&center=true&vCenter=true&width=720&lines=Feature+architecture+%C2%B7+workflows;Dependency+migrations+in+production;Owning+critical+product+modules;React+%C2%B7+Next.js+%C2%B7+UI+systems" alt="typing" />
 
 </div>
 
 ---
 
-## 👋 Hi, soy Ehiran
+## 👋 Hi, I'm Ehiran
 
-**Frontend Engineer** con +3 años construyendo producto en producción (no demos).  
-Mi trabajo no es solo “hacer pantallas”: **defino flujos, propongo arquitectura y muevo sistemas viejos hacia estructuras nuevas** sin tumbar el día a día del negocio.
+**Frontend Engineer** with 3+ years building real production products (not just demos).  
+I don't only ship screens — I **define workflows, propose architecture, and move legacy systems toward cleaner structures** without breaking day-to-day operations.
 
-> De liderar **preinscripciones** pasé a impulsar **arquitecturas nuevas**, **migraciones de dependencias** y módulos que aguantan cambio de reglas de negocio.
+> I've acted as **requirements lead** on key product flows, and also driven **new architectures** and **dependency migrations** in production.
 
-📍 Durango, México · 🌍 Remoto / híbrido · 🎓 UTD — Desarrollo y Gestión de Software (2025)
+📍 Durango, Mexico · 🌍 Remote / Hybrid · 🎓 Universidad Tecnológica de Durango — Software Development & Management (2025)
 
 ---
 
-## 🔥 Qué me diferencia
+## 🔥 What sets me apart
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🧭 Liderazgo de producto
-- Lideré el flujo de **preinscripciones** de punta a punta
-- Coordiné alcance, reglas y salida a producción
-- A partir de ahí tomé más ownership técnico en el dashboard
+### 🧭 Requirements leadership
+- Acted as **requirements lead** on critical product flows
+- Translated business needs into clear acceptance criteria
+- Coordinated scope and delivery to production
 
 </td>
 <td width="50%" valign="top">
 
-### 🏗️ Ingeniería seria
-- Diseño de **arquitecturas nuevas** por features (`api` / `domain` / `workflow` / `ui`)
-- **Migraciones de dependencias** y modernización de stacks en producción
-- Dominio testeable separado de la UI
+### 🏗️ Serious engineering
+- Designed **new feature-based architectures** (`api` / `domain` / `workflow` / `ui`)
+- Ran **dependency migrations** and stack modernization in production
+- Kept business domain testable and separate from UI
 
 </td>
 </tr>
@@ -55,28 +53,23 @@ Mi trabajo no es solo “hacer pantallas”: **defino flujos, propongo arquitect
 
 ---
 
-## 🚀 Impacto real
+## 🚀 Real impact
 
 ### 🏫 Cura · Eficaz Digital
-Dashboard SaaS educativo/administrativo en **React**.
+Educational / admin SaaS dashboard built with **React**.
 
-- Workflows de **registro, ingreso y transferencia** de alumnos
-- Formularios multipaso con validaciones por etapa
-- Refactor hacia **nueva arquitectura** (features + dominio)
-- Pruebas de reglas críticas (edad, documentos, folios, navegación)
-
-### 📝 Preinscripciones → ownership
-No fue solo “un módulo más”:
-
-- Liderazgo funcional/técnico del flujo
-- Criterios de aceptación y entrega a producción
-- Base para asumir más iniciativas de arquitectura y calidad
+- Multi-step **registration, onboarding & transfer** workflows
+- Complex forms with stage-based validation
+- **Requirements lead** on key flows (including pre-enrollment)
+- Refactor toward a **new architecture** (features + domain)
+- Unit tests for critical rules (age, documents, folios, navigation)
+- Dependency migrations and production modernization
 
 ### 🛡️ Escudo Vecinal
-Sistema de **incidencias ciudadanas** (**web + móvil**).
+Citizen **incident reporting** system (**web + mobile**).
 
-- Reportes/alertas vecinales con impacto público en Durango
-- Experiencia en producto sensible (seguridad / respuesta rápida)
+- Neighborhood alerts/reports with public impact in Durango
+- Experience with sensitive, emergency-oriented product flows
 
 ---
 
@@ -87,17 +80,17 @@ Sistema de **incidencias ciudadanas** (**web + móvil**).
 </p>
 
 <details>
-<summary><b>Ver stack completo</b></summary>
+<summary><b>Full stack</b></summary>
 
 <br/>
 
-**Lenguajes:** HTML5 · CSS3 · Sass · JavaScript · TypeScript · PHP  
+**Languages:** HTML5 · CSS3 · Sass · JavaScript · TypeScript · PHP  
 
 **Frontend:** React · Next.js · Vue · Angular · Redux Toolkit · React Hook Form · TanStack Table  
 
 **UI / Design systems:** Tailwind CSS · MUI · Ant Design · Emotion · Bootstrap  
 
-**Backend & datos:** PHP · MySQL · Node.js  
+**Backend & data:** PHP · MySQL · Node.js  
 
 **Build & deploy:** Vite · Vercel · npm · Git · GitHub · Linux · VS Code  
 
@@ -124,20 +117,19 @@ Sistema de **incidencias ciudadanas** (**web + móvil**).
 
 ---
 
-## 🧠 Cómo pienso el código
+## 🧠 How I think about code
 
 ```js
 const eknow = {
   role: "Frontend Engineer",
-  from: "liderazgo en preinscripciones",
-  to: ["arquitecturas nuevas", "migraciones de deps", "ownership de módulos"],
+  also: ["requirements lead", "new architectures", "dependency migrations"],
   principles: [
-    "dominio fuera de la UI",
-    "features desacopladas",
-    "migrar sin romper producción",
-    "producto > demos"
+    "domain outside the UI",
+    "decoupled features",
+    "migrate without breaking production",
+    "product > demos"
   ],
-  openTo: "Frontend Mid · remoto/híbrido · México"
+  openTo: "Mid Frontend · remote/hybrid · Mexico"
 };
 ```
 
@@ -160,11 +152,11 @@ const eknow = {
 
 ---
 
-## ✉️ Contacto
+## ✉️ Contact
 
 <div align="center">
 
-**Si buscas a alguien que lidere módulos, modernice arquitectura y entregue en producción — hablemos.**
+**Looking for someone who can own modules, modernize architecture, and ship to production — let's talk.**
 
 📬 [ehiran.dev@protonmail.com](mailto:ehiran.dev@protonmail.com)
 
