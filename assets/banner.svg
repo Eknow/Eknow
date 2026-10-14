@@ -1,54 +1,52 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Ehiran Rodriguez — Frontend Engineer">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#071820"/>
-      <stop offset="50%" stop-color="#0B2F3F"/>
-      <stop offset="100%" stop-color="#123A2A"/>
+      <stop offset="0%" stop-color="#04141A"/>
+      <stop offset="45%" stop-color="#0A2A32"/>
+      <stop offset="100%" stop-color="#0F3D36"/>
     </linearGradient>
-    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#2DD4BF" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#5EEAD4" stop-opacity=".55"/>
-      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0"/>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0F766E"/>
+      <stop offset="50%" stop-color="#14B8A6"/>
+      <stop offset="100%" stop-color="#D97706"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#2DD4BF"/>
-      <stop offset="100%" stop-color="#F59E0B"/>
+    <linearGradient id="softGlow" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#2DD4BF" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0.08"/>
     </linearGradient>
+    <radialGradient id="orb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5EEAD4" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#5EEAD4" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 
+  <!-- Full-bleed field -->
   <rect width="1200" height="360" fill="url(#bg)"/>
-  <circle cx="980" cy="70" r="120" fill="#2DD4BF" opacity=".18"/>
-  <circle cx="180" cy="300" r="140" fill="#F59E0B" opacity=".12"/>
-  <rect x="0" y="250" width="1200" height="2" fill="url(#glow)"/>
+  <ellipse cx="980" cy="40" rx="280" ry="180" fill="url(#orb)"/>
+  <ellipse cx="160" cy="320" rx="220" ry="140" fill="#F59E0B" opacity="0.08"/>
+  <rect x="0" y="0" width="1200" height="360" fill="url(#softGlow)" opacity="0.45"/>
 
-  <g opacity=".14" stroke="#94A3B8" stroke-width="1">
-    <path d="M80 80 H520"/>
-    <path d="M80 110 H420"/>
-    <path d="M80 140 H470"/>
+  <!-- Soft grid, atmosphere only -->
+  <g opacity="0.07" stroke="#E2E8F0" stroke-width="1">
+    <path d="M0 90 H1200"/>
+    <path d="M0 150 H1200"/>
+    <path d="M0 210 H1200"/>
+    <path d="M240 0 V280"/>
+    <path d="M480 0 V280"/>
+    <path d="M720 0 V280"/>
+    <path d="M960 0 V280"/>
   </g>
 
-  <g transform="translate(80,78)">
-    <rect width="56" height="56" rx="14" fill="#0F766E"/>
-    <text x="28" y="37" text-anchor="middle" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#ECFDF5">E</text>
-  </g>
+  <!-- Brand-first, centered composition -->
+  <text x="600" y="118" text-anchor="middle" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="4" fill="#5EEAD4">FRONTEND ENGINEER</text>
 
-  <text x="154" y="112" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#F8FAFC">Ehiran Rodriguez</text>
-  <text x="154" y="152" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="500" fill="#99F6E4">Frontend Engineer · React · Product Architecture</text>
-  <rect x="154" y="176" width="280" height="4" rx="2" fill="url(#accent)"/>
-  <text x="154" y="220" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#CBD5E1">
-    Workflows · new architectures · dependency migrations
-  </text>
-  <text x="154" y="248" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#94A3B8">
-    Durango, Mexico · Remote / Hybrid · English B2
-  </text>
+  <text x="600" y="178" text-anchor="middle" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="52" font-weight="700" fill="#F8FAFC">Ehiran Rodriguez</text>
 
-  <g transform="translate(780,90)">
-    <rect width="340" height="190" rx="22" fill="#0B1F28" stroke="#1F4A57" stroke-width="1.5"/>
-    <text x="24" y="42" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#5EEAD4" letter-spacing="1.5">IMPACT</text>
-    <text x="24" y="78" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#F8FAFC">Requirements lead</text>
-    <text x="24" y="112" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#94A3B8">Architecture · migrations · features</text>
-    <text x="24" y="146" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#CBD5E1">Cura + Escudo Vecinal</text>
-    <rect x="24" y="164" width="110" height="10" rx="5" fill="#134E4A"/>
-    <rect x="24" y="164" width="86" height="10" rx="5" fill="#2DD4BF"/>
-  </g>
+  <text x="600" y="218" text-anchor="middle" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" fill="#99F6E4">React · TypeScript · Product interfaces</text>
+
+  <text x="600" y="252" text-anchor="middle" font-family="DejaVu Sans, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#94A3B8">Production UIs · complex workflows · clean architecture</text>
+
+  <!-- Capsule-style wave, no cards -->
+  <path d="M0 300 C200 270 350 340 520 310 C690 280 820 250 1000 280 C1100 295 1160 310 1200 300 L1200 360 L0 360 Z" fill="url(#wave)" opacity="0.85"/>
+  <path d="M0 318 C180 295 360 345 540 320 C720 295 880 275 1040 300 C1120 312 1165 325 1200 318 L1200 360 L0 360 Z" fill="#04141A" opacity="0.55"/>
 </svg>
