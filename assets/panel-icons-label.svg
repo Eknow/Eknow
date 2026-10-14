@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="48" viewBox="0 0 800 48" role="img" aria-label="icons">
+  <rect width="800" height="48" rx="8" fill="#000000" stroke="#333333" stroke-width="2"/>
+  <text x="24" y="30" font-family="Hack, Liberation Mono, Noto Sans Mono, monospace" font-size="12" fill="#ffffff">$ ls ./stack --icons</text>
+</svg>

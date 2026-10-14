@@ -6,6 +6,6 @@
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <text x="400" y="9" text-anchor="middle" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" fill="#444444">----------------------------------------</text>
+  <text x="400" y="9" text-anchor="middle" font-family="Hack, Liberation Mono, Noto Sans Mono, monospace" font-size="9" fill="#444444">----------------------------------------</text>
   <rect x="0" y="14" width="800" height="1" fill="url(#line)"/>
 </svg>
