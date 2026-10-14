@@ -1,11 +1,6 @@
-# Infographics via https://github.com/lowlighter/metrics
-#
-# For private activity / languages / habits to fill in:
-#   1. PAT with `repo` scope (or at least read access to private repos)
-#   2. GitHub → Settings → Profile → ✅ Include private contributions on my profile
-#   3. Update secret METRICS_TOKEN and re-run this workflow
-#
-# Pinned to v3.34 (SHA) to avoid mutable @latest supply-chain risk.
+# B/W terminal profile — only cards that work without heavy private data
+# For fuller stats: METRICS_TOKEN with `repo` scope + private contributions on profile
+# Pinned to v3.34 SHA
 name: Metrics
 on:
   schedule: [{ cron: "0 0 * * *" }]
@@ -18,7 +13,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      # Overview
+      # Overview only (stable)
       - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6
         with:
           filename: metrics.general.svg
@@ -28,6 +23,8 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: America/Mexico_City
           config_theme: dark
+          extras_css: |
+            svg { filter: grayscale(1) contrast(1.08); }
 
       # Isometric calendar
       - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6
@@ -41,82 +38,5 @@ jobs:
           plugin_isocalendar_duration: full-year
           config_timezone: America/Mexico_City
           config_theme: dark
-
-      # Languages incl. private (needs `repo` scope). Indepth = more accurate to YOUR commits.
-      - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6
-        with:
-          filename: metrics.languages.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Eknow
-          template: classic
-          base: ""
-          plugin_languages: yes
-          plugin_languages_indepth: yes
-          plugin_languages_sections: most-used, recently-used
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 8
-          plugin_languages_colors: github
-          # Skip forks / noise; add company repo names here if you don't want them listed
-          repositories_skipped: |
-            @use.patterns
-            */ionic-docs
-          config_timezone: America/Mexico_City
-          config_theme: dark
-
-      # Activity from public + private (needs `repo` scope)
-      - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6
-        with:
-          filename: metrics.activity.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Eknow
-          template: classic
-          base: ""
-          plugin_activity: yes
-          plugin_activity_limit: 10
-          plugin_activity_days: 180
-          plugin_activity_visibility: all
-          plugin_activity_filter: push, issue, pr, release, fork, review, ref/create, comment, star
-          config_timezone: America/Mexico_City
-          config_theme: dark
-
-      # Habits from real commit timing (needs private events via `repo` scope)
-      - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6
-        with:
-          filename: metrics.habits.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Eknow
-          template: classic
-          base: ""
-          plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-          config_timezone: America/Mexico_City
-          config_theme: dark
-
-      # Featured public repos (pinned alone was empty)
-      - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6
-        with:
-          filename: metrics.repositories.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Eknow
-          template: classic
-          base: ""
-          plugin_repositories: yes
-          plugin_repositories_featured: |
-            Eknow/market-pos
-          config_timezone: America/Mexico_City
-          config_theme: dark
-
-      # Lines changed (helps when commit volume is mostly private)
-      - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6
-        with:
-          filename: metrics.lines.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Eknow
-          template: classic
-          base: ""
-          plugin_lines: yes
-          plugin_lines_sections: repositories
-          plugin_lines_repositories_limit: 4
-          config_timezone: America/Mexico_City
-          config_theme: dark
+          extras_css: |
+            svg { filter: grayscale(1) contrast(1.08); }

@@ -1,81 +1,117 @@
-> Want to know what I'm currently focused on?
->
-> *PS: Most of my day-to-day shipping lives in private product repos, so the public graph is quieter than the real workload. The cards below are the public side of the story — and they get richer once private contributions are included in the token.*
->
-> - [x] React / Next.js product interfaces
-> - [x] TypeScript feature modules (`api` / `domain` / `workflow` / `ui`)
-> - [x] Multi-step workflows, forms, and validation that survive real users
-> - [x] UI systems with Tailwind, MUI, and Ant Design
-> - [x] Dependency migrations without freezing delivery
-> - [ ] Publishing more reusable frontend patterns in public
->   - → Actively polishing this profile and public demos *(updated Oct 2026)*
->
-> *Thanks for stopping by — open to Mid Frontend · remote / hybrid · Mexico.*
+<p align="center">
+  <img src="./assets/header.gif" width="800" alt="eknow@terminal" />
+</p>
+
+```bash
+eknow@durango:~/frontend$ whoami && cat ./brief.{en,es}
+```
+
+**Ehiran Rodriguez** · Frontend Engineer · Mid (4–5+ years)  
+Remote · Hybrid · Mexico · open to LATAM · English B2 · [Available for hire]
 
 ---
 
-<!-- Two-column metrics layout (lowlighter style) -->
+### EN
+I'm a **Frontend Engineer**. I ship product interfaces: dashboards, web apps, mobile clients, and landings. Day to day that means owning UI modules — forms, tables, workflows — fixing production bugs, and adding features without breaking what already works. Architecture and requirements when the product needs them. Backend is secondary but real (Node, PHP, some Java).
 
-[<img align="left" width="390" alt="Overview" src="./metrics.general.svg">](#)
-[<img align="right" width="390" alt="Commit calendar" src="./metrics.isocalendar.svg">](#)
+**What I have shipped (private product — education / Mexico)**  
+School operations dashboard: student history loads, advanced registration with **SEP-aligned validations**, enrollment flows, and a **payments module** (scholarships, outstanding balances, extraordinary exams, and related statuses).
 
-<img width="800" height="0" alt="">
+- Built multi-step registration / enrollment with stage-based validation  
+- Shipped payments & scholarship UI tied to real academic statuses  
+- Own critical modules: tables, forms, filters, uploads, PDF viewers  
+- Continuously ship new features and fix production bugs on the same codebase  
+- Keep domain rules outside React; migrate dependencies without freezing delivery  
 
-[<img align="left" width="390" alt="Languages" src="./metrics.languages.svg">](#)
-[<img align="right" width="390" alt="Recent activity" src="./metrics.activity.svg">](#)
+**Stack** — React · Next.js · TypeScript · Vue · Angular · Astro · Solid · Svelte · MUI · Ant Design · Tailwind · Bootstrap · Redux · RHF · TanStack · Node · PHP · Java · Vite · Vercel · Firebase · Figma · AE · Blender · DaVinci · Ionic / Android
 
-<img width="800" height="0" alt="">
+---
 
-[<img align="left" width="390" alt="Repositories" src="./metrics.repositories.svg">](#)
-[<img align="right" width="390" alt="Coding habits" src="./metrics.habits.svg">](#)
+### ES
+Soy **Frontend Engineer**. Entrego interfaces de producto: dashboards, apps web, mobile y landings. Día a día: ownership de módulos UI (forms, tablas, workflows), resolver bugs en producción y sumar features sin romper lo que ya corre. Arquitectura y requisitos cuando el producto lo pide. Backend secundario pero real (Node, PHP, algo de Java).
 
-<img width="800" height="0" alt="">
+**Qué he entregado (producto privado — educación / México)**  
+Dashboard operativo escolar: carga de historial de alumnos, registro avanzado con **validaciones alineadas a SEP**, flujos de inscripción y **módulo de pagos** (becas, adeudos, extraordinarios y estados relacionados).
 
-[<img align="left" width="390" alt="Lines of code" src="./metrics.lines.svg">](#)
+- Registro / inscripción multipaso con validación por etapas  
+- UI de pagos y becas ligada a estados académicos reales  
+- Ownership de módulos críticos: tablas, forms, filtros, cargas, PDF  
+- Features nuevas + resolución de bugs en el mismo producto en producción  
+- Dominio fuera de React; migraciones de dependencias sin detener la operación  
 
-<img width="800" height="0" alt="">
+---
 
-## Stack I actually use
+```bash
+eknow@durango:~/frontend$ ./metrics --theme mono
+```
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,sass,js,ts,react,nextjs,vue,angular,tailwind,redux,mui,bootstrap,nodejs,vite,vercel,npm,php,mysql,git,github,linux,vscode,figma&perline=8" alt="skills" />
-</p>
-
-<!-- Moving Logos from https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub -->
-<p align="center">
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/29fd6286-4e7b-4d6c-818f-c4765d5e39a9" width="80" alt="HTML5"/>
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/67f477ed-6624-42da-99f0-1a7b1a16eecb" width="80" alt="CSS3"/>
-  <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="80" alt="JavaScript"/>
-  <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="80" alt="React"/>
-  <img src="https://user-images.githubusercontent.com/74038190/212257463-4d082cb4-7483-4eaf-bc25-6dde2628aabd.gif" width="80" alt="Vue"/>
-  <img src="https://user-images.githubusercontent.com/74038190/212280823-79088828-a258-4a4d-8d6c-96315d5a07af.gif" width="80" alt="Angular"/>
-  <img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="80" alt="Node.js"/>
-  <img src="https://user-images.githubusercontent.com/74038190/212280805-9bcb336b-8c55-46a8-abf8-ff286ab55472.gif" width="80" alt="Bootstrap"/>
-  <img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52e1aaddc86.gif" width="80" alt="Git"/>
-  <img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="80" alt="GitHub"/>
-  <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="80" alt="VS Code"/>
+  <img src="./assets/divider.svg" width="800" alt="" />
 </p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/219923809-b86dc415-a0c2-4a38-bc88-ad6cf06395a8.gif" width="480" alt="Tech stack floating"/>
+  <img src="./metrics.general.svg" width="100%" alt="overview" />
 </p>
+
+<p align="center">
+  <img src="./metrics.isocalendar.svg" width="100%" alt="commit calendar" />
+</p>
+
+<p align="center">
+  <img src="./assets/divider.svg" width="800" alt="" />
+</p>
+
+```bash
+eknow@durango:~/frontend$ ls ./stack --icons
+```
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,sass,js,ts,react,nextjs,vue,angular,svelte,solidjs,astro,tailwind,redux,mui,bootstrap,nodejs,java,androidstudio,vite,vercel,firebase,php,mysql,git,github,linux,vscode,figma,ps,ae,blender&perline=11" alt="stack" />
+</p>
+
+<details>
+<summary><b>Full toolkit / kit completo</b> (from real product deps)</summary>
+
+<br/>
+
+**Core:** JavaScript · TypeScript · React 18 · Next.js · Vue · Angular · Astro · Solid · Svelte · React Router  
+
+**UI systems:** Tailwind · MUI (+ icons, lab, Data Grid, Date Pickers Pro) · Ant Design · Bootstrap · Emotion (cache / styled) · Floating UI · cmdk · classnames  
+
+**Forms & validation:** React Hook Form · Hookform Resolvers · Formik · Yup · Input OTP · react-imask · react-datepicker  
+
+**Tables & data:** TanStack Table · TanStack Virtual · match-sorter · Redux Toolkit · React Redux · redux-persist · Axios · Lodash · Luxon · UUID  
+
+**Editors & media:** TipTap (color, placeholder, align, underline…) · FullCalendar · react-player · react-pdf-viewer · pdfjs · ECharts · keen-slider · react-colorful · emoji-mart · Dropzone · file-saver  
+
+**Maps & geo:** MapLibre GL · react-map-gl · maplibre-gl-draw · Turf · Supercluster  
+
+**UX / product:** react-toastify · react-error-boundary · react-use · react-countup · react-perfect-scrollbar · react-beautiful-dnd · FormKit drag-and-drop · FingerprintJS · OneSignal · web-vitals · i18n (formatjs / negotiator)  
+
+**Backend touch:** Node.js · PHP · Java · MySQL · Firebase  
+
+**Tooling:** Vite · Vercel · env-cmd · Git · GitHub · Linux · VS Code · npm  
+
+**Creative:** Figma · Photoshop · After Effects · Blender · DaVinci Resolve  
+
+**Mobile:** Ionic · Android  
+
+</details>
+
+```bash
+eknow@durango:~/frontend$ cat ./principles
+# product > demos
+# domain outside the UI
+# migrate without breaking production
+# acceptance criteria before scope fights
+# own edge cases + rollback
+
+eknow@durango:~/frontend$ mail
+# ehiran.dev@protonmail.com
+# Mid Frontend · remote / hybrid / MX / LATAM · available now
+```
 
 <sub>
-Infographics: <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a> ·
-Icons: <a href="https://github.com/tandpfun/skill-icons">skill-icons</a> ·
-Animated logos: <a href="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub">Cool-GIFs-For-GitHub</a>
+<a href="https://github.com/lowlighter/metrics">metrics</a> ·
+<a href="https://github.com/tandpfun/skill-icons">skill-icons</a>
 </sub>
-
----
-
-## How I work
-
-- Product beats demos.
-- Domain logic stays outside the UI.
-- Migrations land without breaking production.
-- Acceptance criteria before the scope argument.
-- Ownership includes edge cases and the rollback path.
-
-## Contact
-
-[ehiran.dev@protonmail.com](mailto:ehiran.dev@protonmail.com)
