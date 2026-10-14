@@ -1,55 +1,59 @@
-Frontend engineer based in Durango, Mexico. Most of my work sits on the product side of the UI: React and Next.js interfaces that real users lean on every day, multi-step workflows that have to stay coherent across stages, and forms that fail loudly in validation instead of quietly in production.
-
-Day to day that means owning critical product modules, shipping through pull requests, and keeping the stack honest — TypeScript where it pays off, design systems that do not fight the product, and migrations that land without taking the app down.
-
-When the work needs it, I also write acceptance criteria, push feature-based architecture, and move legacy dependencies forward. That is useful. It is not the headline.
+Frontend engineer based in Durango, Mexico. Product UI in React and Next.js — workflows, forms, and modules that have to keep working after launch. When needed: acceptance criteria, feature architecture, and dependency migrations in production.
 
 ---
 
-<div align="center">
-  <img src="./github-metrics.svg" alt="GitHub metrics" width="100%" />
-  <br/>
-  <img src="./metrics.isocalendar.svg" alt="Isometric commit calendar" width="100%" />
-  <br/>
-  <img src="./metrics.languages.svg" alt="Languages activity" width="100%" />
-</div>
+<!-- Two-column layout like https://github.com/lowlighter — metrics left/right pairs -->
 
-<p align="center">
-  <sub>Infographics generated with <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a></sub>
-</p>
+[<img align="left" width="390" alt="Overview" src="./metrics.general.svg">](#)
+[<img align="right" width="390" alt="Commit calendar" src="./metrics.isocalendar.svg">](#)
+
+<img width="800" height="0" alt="">
+
+[<img align="left" width="390" alt="Languages" src="./metrics.languages.svg">](#)
+[<img align="right" width="390" alt="Recent activity" src="./metrics.activity.svg">](#)
+
+<img width="800" height="0" alt="">
+
+[<img align="left" width="390" alt="Collaborations" src="./metrics.notable.svg">](#)
+[<img align="right" width="390" alt="Topics / skills" src="./metrics.topics.svg">](#)
+
+<img width="800" height="0" alt="">
+
+[<img align="left" width="390" alt="Coding habits" src="./metrics.habits.svg">](#)
+[<img align="right" width="390" alt="Pinned repositories" src="./metrics.repositories.svg">](#)
+
+<img width="800" height="0" alt="">
+
+[<img align="left" width="390" alt="Achievements" src="./metrics.achievements.svg">](#)
+
+<img width="800" height="0" alt="">
+
+<sub>These infographics were generated using [lowlighter/metrics](https://github.com/lowlighter/metrics)</sub>
 
 ---
 
 ## What I work with
 
-**Frontend** — React and Next.js for product UI, TypeScript by default, Vue or Angular when the codebase already lives there.
+**Frontend** — React, Next.js, TypeScript; Vue or Angular when the codebase already lives there.
 
-**UI systems** — Tailwind CSS, MUI, and Ant Design for interfaces that have to feel consistent across many screens, not just one demo page.
+**UI systems** — Tailwind CSS, MUI, Ant Design.
 
-**Forms and data** — React Hook Form, TanStack Table, and Redux Toolkit for flows where state and validation are the product, not the decoration.
+**Forms and data** — React Hook Form, TanStack Table, Redux Toolkit.
 
-**Backend touch** — Node.js and PHP when the frontend needs a real API surface, MySQL more often than expected.
+**Backend touch** — Node.js, PHP, MySQL.
 
-**Tooling** — Vite, Vercel, Git, and Figma — plus Illustrator and DaVinci Resolve when the deliverable is not only code.
-
-## What I have built
-
-**SaaS admin dashboards** — Multi-step registration and onboarding flows in React, with stage-based validation, feature modules, and domain rules kept outside the UI. Dependency migrations shipped in production so the stack could move forward without freezing delivery.
-
-**Public-facing apps** — Web and mobile interfaces for time-sensitive user reports, where clarity and calm UX matter more than clever chrome.
-
-**Product modules** — Owning critical paths end to end: forms, tables, state, edge cases, and the rollback path — not only the happy path.
+**Tooling** — Vite, Vercel, Git, Figma.
 
 ## How I work
 
-- Product beats demos. If it only looks good in a screenshot, it is not done.
-- Domain logic stays outside the UI. Features stay decoupled enough that one broken flow does not take the rest with it.
-- Migrations land without breaking production. Modernization is a delivery problem, not a rewrite fantasy.
-- Acceptance criteria get written before the argument about scope starts.
-- Ownership means the module, the edge cases, and the rollback path — not just the happy path.
+- Product beats demos.
+- Domain logic stays outside the UI.
+- Migrations land without breaking production.
+- Acceptance criteria before the scope argument.
+- Ownership includes edge cases and the rollback path.
 
 ## Contact
 
-Open to Mid Frontend roles — remote or hybrid, Mexico-friendly.
+Open to Mid Frontend · remote / hybrid · Mexico.
 
 [ehiran.dev@protonmail.com](mailto:ehiran.dev@protonmail.com)
